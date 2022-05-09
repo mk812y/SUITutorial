@@ -22,6 +22,9 @@
 		A5A4AEB72821BD3200806D65 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = A5A4AEB62821BD3200806D65 /* landmarkData.json */; };
 		A5A4AEB92821BD7C00806D65 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A4AEB82821BD7C00806D65 /* Landmark.swift */; };
 		A5A4AEBB2821C18100806D65 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A4AEBA2821C18100806D65 /* ModelData.swift */; };
+		A5ACE069282971A00080D26B /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ACE068282971A00080D26B /* BadgeSymbol.swift */; };
+		A5ACE06B282973FD0080D26B /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ACE06A282973FD0080D26B /* RotatedBadgeSymbol.swift */; };
+		A5ACE06D282974CF0080D26B /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ACE06C282974CF0080D26B /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		A5A4AEB62821BD3200806D65 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		A5A4AEB82821BD7C00806D65 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		A5A4AEBA2821C18100806D65 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		A5ACE068282971A00080D26B /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		A5ACE06A282973FD0080D26B /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		A5ACE06C282974CF0080D26B /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +65,6 @@
 			children = (
 				A572EDBE2825657700B964CE /* LandmarkRow.swift */,
 				A572EDC0282568CB00B964CE /* LandmarkList.swift */,
-				A580E494282967700034A006 /* HexagonParameters.swift */,
-				A580E496282969330034A006 /* BadgeBackground.swift */,
 				A572EDC22825736D00B964CE /* LandmarkDetail.swift */,
 			);
 			path = Landmarks;
@@ -120,6 +124,7 @@
 			children = (
 				A5A4AEA62821A2D600806D65 /* ContentView.swift */,
 				A580E49228295F4E0034A006 /* Landmarks */,
+				A5ACE06E282976BF0080D26B /* Badge */,
 				A580E49328295F7A0034A006 /* Helpers */,
 			);
 			path = Views;
@@ -138,6 +143,18 @@
 				A5A4AEB62821BD3200806D65 /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A5ACE06E282976BF0080D26B /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				A580E494282967700034A006 /* HexagonParameters.swift */,
+				A580E496282969330034A006 /* BadgeBackground.swift */,
+				A5ACE068282971A00080D26B /* BadgeSymbol.swift */,
+				A5ACE06A282973FD0080D26B /* RotatedBadgeSymbol.swift */,
+				A5ACE06C282974CF0080D26B /* Badge.swift */,
+			);
+			path = Badge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,10 +229,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A4AEA72821A2D600806D65 /* ContentView.swift in Sources */,
+				A5ACE06D282974CF0080D26B /* Badge.swift in Sources */,
 				A5A4AEB52821B0AE00806D65 /* MapView.swift in Sources */,
 				A5A4AEA52821A2D600806D65 /* SUITutorialApp.swift in Sources */,
 				A580E49128295DDE0034A006 /* FavoriteButton.swift in Sources */,
 				A580E495282967700034A006 /* HexagonParameters.swift in Sources */,
+				A5ACE06B282973FD0080D26B /* RotatedBadgeSymbol.swift in Sources */,
+				A5ACE069282971A00080D26B /* BadgeSymbol.swift in Sources */,
 				A572EDC1282568CC00B964CE /* LandmarkList.swift in Sources */,
 				A572EDC32825736D00B964CE /* LandmarkDetail.swift in Sources */,
 				A580E497282969330034A006 /* BadgeBackground.swift in Sources */,
